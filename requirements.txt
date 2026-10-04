@@ -1,0 +1,26 @@
+# Core ML
+torch==2.14.1
+torchvision==0.29.1
+
+# Computer vision
+opencv-python==5.0.0.93
+Pillow==12.3.0
+
+# Data and scientific computing
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+
+# Machine learning / evaluation
+scikit-learn==1.9.1
+
+# Visualization
+matplotlib==3.11.2
+
+# Utilities
+tqdm==4.70.1
+
+# Development / notebooks
+jupyter==1.1.1
+ipykernel==7.4.0
+pytest==9.1.1

@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data
+data/raw/
+data/processed/
+
+# Trained models / checkpoints
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.h5
+models/*.keras
+models/*.pkl
+models/*.joblib
+
+# Experiment outputs
+runs/
+wandb/
+mlruns/
+
+# Temporary files
+tmp/
+temp/
